@@ -1,0 +1,15 @@
+{
+  "name": "hostel_pg-rental",
+  "version": "1.0.0",
+  "description": "This is a StartUp For Easy Avaiibilty of rooms for students.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
