@@ -2,15 +2,39 @@ doctype html
 html
  head
   title Pg/Rental System
+  meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0 shrink-to-fit=no" )
+  link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js")
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js")
   style
    include ../static/style.css
  body
   nav#navbar
    ul
     div#logo
-     img(src="https://www.roomsoom.com/blog/wp-content/uploads/2018/09/0x0ss-85.jpg", alt="Rent Logo")  
-     p Apka PG
+     img(src="https://www.roomsoom.com/blog/wp-content/uploads/2018/09/0x0ss-85.jpg", alt="Rent Logo" class="imglogo")  
+     p#para Apka PG
     li #[a(href="/") Home]   
     li #[a(href="/") About Us]
     li #[a(href="/") Services]
     li #[a(href="/") Contact Us]
+    
+  section#search
+   h1 Apka PG
+   div.col-sm-12
+    | India's Largest PG Network.
+   div.searchbar.m-5
+    input(type="text" placeholder="Enter your City")
+   div.cities
+    div.imgtext
+     img(src="https://bookmypg.co.in/assets/front/images/bangaluru.jpg", alt="Banglore" class="imgcard")
+     p Banglore
+    div.imgtext 
+     img(src="https://bookmypg.co.in/assets/front/images/chennai-1.jpg", alt="Chennai" class="imgcard")
+     p Chennai
+    div.imgtext
+     img(src="https://bookmypg.co.in/assets/front/images/mumbai.jpg", alt="Mumbai" class="imgcard")
+     p Mumbai
+    

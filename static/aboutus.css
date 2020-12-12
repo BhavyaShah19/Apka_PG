@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    margin: 25px;
+    color: #014073;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+body::before{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 132vh;
+    left: 0px;
+    content: "";
+    background: center/cover no-repeat url("https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.carousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+
+.carousel-indicators{
+    height: 42px;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 27px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #aae3c2;
+    background-clip: content-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1.5;
+    transition: opacity .6s ease;
+}

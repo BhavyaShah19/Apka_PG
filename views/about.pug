@@ -1,0 +1,62 @@
+extends base.pug
+
+block style
+ style
+  include ../static/style.css
+  include ../static/aboutus.css
+
+block content
+ div.container
+  h1 About Us
+  p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, modi!
+  #carouselExampleCaptions.carousel.slide(data-bs-ride='carousel')
+    ol.carousel-indicators
+      li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+      |     
+      li(data-target='#carouselExampleIndicators', data-slide-to='1')
+      |     
+      li(data-target='#carouselExampleIndicators', data-slide-to='2')
+      |     
+      li(data-target='#carouselExampleIndicators', data-slide-to='3')
+      |     
+      li(data-target='#carouselExampleIndicators', data-slide-to='4')
+    .carousel-inner
+      .carousel-item.active(data-interval='2000')
+        img.d-block.w-100(src='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', alt='...')
+        |       
+        .carousel-caption.d-none.d-md-block
+          h5 Lorem, ipsum.
+          |         
+          p Tech Head
+      |     
+      .carousel-item(data-interval='2000')
+        img.d-block.w-100(src='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', alt='...')
+        |       
+        .carousel-caption.d-none.d-md-block
+          h5 Lorem, ipsum.
+          |         
+          p Junior Tech Head
+      |     
+      .carousel-item(data-interval='2000')
+        img.d-block.w-100(src='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', alt='...')
+        |       
+        .carousel-caption.d-none.d-md-block
+          h5 Lorem, ipsum.
+          |         
+          p Marketing Head
+      |     
+      .carousel-item(data-interval='2000')
+        img.d-block.w-100(src='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', alt='...')
+        |       
+        .carousel-caption.d-none.d-md-block
+          h5 Lorem, ipsum.
+          |         
+          p Financial Head
+      |     
+      .carousel-item(data-interval='2000')
+        img.d-block.w-100(src='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', alt='https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')
+        |       
+        .carousel-caption.d-none.d-md-block
+          h5 Lorem, ipsum.
+          |         
+          p Project Head

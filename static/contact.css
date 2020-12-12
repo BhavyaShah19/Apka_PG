@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.title{
+    color: #014073;
+}
+
+body::before{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 132vh;
+    left: 0px;
+    content: "";
+    background: center/cover no-repeat url("https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?cs=srgb&dl=pexels-chept%C3%A9-cormani-1416530.jpg&fm=jpg");
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.desc{
+    font-size: 18px;
+}
+
+.uppertitle{
+    margin-bottom: 80px;
+    font-size: 22px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myinput{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    background-color: #ff8787;
+    cursor: pointer;
+}

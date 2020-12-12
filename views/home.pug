@@ -1,0 +1,23 @@
+extends base.pug
+
+block style
+ style
+  include ../static/style.css
+
+block content
+ section#search
+   h1 Apka PG
+   div.col-sm-12
+    | India's Largest PG Network.
+   div.searchbar.m-5
+    input(type="text" placeholder="Enter your City")
+   div.cities
+    div.imgtext
+     img(src="https://bookmypg.co.in/assets/front/images/bangaluru.jpg", alt="Banglore" class="imgcard")
+     p Banglore
+    div.imgtext 
+     img(src="https://bookmypg.co.in/assets/front/images/chennai-1.jpg", alt="Chennai" class="imgcard")
+     p Chennai
+    div.imgtext
+     img(src="https://bookmypg.co.in/assets/front/images/mumbai.jpg", alt="Mumbai" class="imgcard")
+     p Mumbai

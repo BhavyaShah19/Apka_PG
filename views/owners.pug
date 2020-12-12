@@ -1,0 +1,40 @@
+extends base.pug
+
+block style
+ style
+  include ../static/style.css
+  include ../static/owners.css
+
+block content
+ .container
+  h1 List Your PG New User 
+  p 
+   b Monthly Package Details For PG Owners :
+   | Please list your PG in our Website to get leads for your Business to your Mobile Number on Daily basic.Our Listing Fees is only Rs 499 for 1.5 Month to get Unlimited Leads to your Mobile Number.Please fill below Form and make the Payment Online.
+  .col-md-3
+    a(href='#')
+     img(src='https://bookmypg.co.in/assets/front/images/listyourpg-1.jpg', alt='inn_logo')
+  |        
+  .col-md-3
+    a(href='#')
+     img(src='https://bookmypg.co.in/assets/front/images/listyourpg-5.jpg', alt='ccs_logo')
+  |        
+  .col-md-3
+    a(href='#')
+     img(src='https://bookmypg.co.in/assets/front/images/listyourpg-3.jpg', alt='inn_logo')
+  |        
+  .col-md-3
+    a(href='#')
+     img(src='https://bookmypg.co.in/assets/front/images/listyourpg-4.jpg', alt='ccs_logo')
+  h2 Fill your details and then Proceed for Payment.
+  form(action="#" method="post" class="myform")
+   p.inputfields Name: 
+   input(type="text" class="myinput" name="name")
+   p.inputfields Phone:
+   input(type="phone" class="myinput" name="phone")
+   p.inputfields Email:
+   input(type="email" class="myinput" name="email")
+  input.btn.btn-primary(type='submit', value='Submit')
+  p.foot 
+   | You PG property will be Listed in Book Apka PG website and Mobile App for 60 Days and Customers will be able to Schedule Visit and Book the rooms Online for Future Booking.
+  button.btn.btn-primary.btn-lg(type='button') Pay Now
